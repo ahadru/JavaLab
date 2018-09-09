@@ -1,0 +1,17 @@
+package testing;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+import main.JavaOperators;
+
+class additionTest {
+	JavaOperators test = new JavaOperators();
+	@Test
+	void test() {
+		
+		
+		assertEquals(10,test.addition(5, 5));
+	}
+}
