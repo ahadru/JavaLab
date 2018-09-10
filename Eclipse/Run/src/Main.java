@@ -48,7 +48,9 @@ public class Main {
 					count++;
 					i++;
 				}
+				
 				if(max<count) {
+					max = count;
 					maxPos = initialPos;
 				}
 				count = 0;
@@ -68,7 +70,7 @@ public class Main {
 					int sameValue = randNum[i];
 					while(randNum[i] != sameValue) {
 						System.out.print(randNum[i] + " ");
-						if(i-1 == randNum.length) {
+						if(i+1 == randNum.length) {
 							break;
 						}
 						i++;
