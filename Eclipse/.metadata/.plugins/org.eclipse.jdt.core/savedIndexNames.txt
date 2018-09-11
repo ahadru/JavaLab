@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.131+/home/ahad/JavaLab/Eclipse/.metadata/.plugins/org.eclipse.jdt.core
 1218699205.index
 1838171847.index
@@ -21,3 +22,7 @@ INDEX VERSION 1.131+/home/ahad/JavaLab/Eclipse/.metadata/.plugins/org.eclipse.jd
 3821432157.index
 1602333472.index
 1315920710.index
+=======
+INDEX VERSION 1.131+/home/ahad/JavaLab/Eclipse/.metadata/.plugins/org.eclipse.jdt.core
+4038280034.index
+>>>>>>> Setup in my machine
