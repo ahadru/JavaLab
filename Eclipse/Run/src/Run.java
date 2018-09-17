@@ -21,13 +21,13 @@ public class Run {
 					outputRun.append(String.valueOf(randomNumber[i]));
 				}
 				else {
-					outputRun.append(String.valueOf(randomNumber[i]));
-					outputRun.append(SPACE);
+					//outputRun.append(randomNumber[i]);
+					//outputRun.append(SPACE);
 				}
 				//System.out.print(randomNumber[i] + " ");
 			}
 			else {
-				outputRun.append(LEFT_PARENTHESIS);
+				//outputRun.append(LEFT_PARENTHESIS);
 				//System.out.print("( " + randomNumber[i] + " ");
 				int samevalue = randomNumber[i];
 				while(randomNumber[i] == samevalue) {
