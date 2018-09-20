@@ -5,13 +5,15 @@ public class Main {
 		
 		//Initilizing random value in a array randNum
 		for(int i = 0;i < LENGTH; i++) {
-			int random = (int )(Math.random() * 20 + 1);
+			int random = (int )(Math.random() * 6 + 1);
 			rand[i] = random;
 		}
+		
 		Run number = new Run(rand);
 		
 		//Displaying run
-		number.displayRun();
+		StringBuffer run = new StringBuffer(number.displayRun());
+		System.out.println(run);
 		
 		//Display Longest run only if found otherwise print only the array
 		//number.displayLongestRun();

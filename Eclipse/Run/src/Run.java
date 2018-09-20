@@ -17,7 +17,7 @@ public class Run {
 	private void createRun() { 
 		for(int i = 0; i < randomNumber.length - 1; i++) {
 			if(randomNumber[i] != randomNumber[i+1]) {
-				if(i==randomNumber.length) {
+				if(i == randomNumber.length - 1) {
 					outputRun.append(String.valueOf(randomNumber[i]));
 				}
 				else {

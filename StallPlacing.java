@@ -1,3 +1,7 @@
+import javax.print.attribute.SupportedValuesAttribute;
+
+import com.sun.org.apache.xpath.internal.SourceTree;
+
 public class StallPlacing{
     public static void main(String[] args) {
         int places;
@@ -24,6 +28,7 @@ public class StallPlacing{
                             break;
                         }
                     }
+                    
                     if(max < maxIt){
                         max = maxIt;
                         pre = j - maxIt;
