@@ -1245,6 +1245,7 @@ Caused by: java.lang.IllegalStateException: Application does not have an active 
 	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
 	... 57 more
 >>>>>>> Setup in my machine
+<<<<<<< HEAD
 !SESSION 2018-09-16 14:18:14.636 -----------------------------------------------
 eclipse.buildId=4.8.0.I20180611-0500
 java.version=1.8.0_181
@@ -1966,3 +1967,5 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:385)
 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:213)
 	... 9 more
+=======
+>>>>>>> 3dc65b9259ba068bbc2ee022b7a5e9876c88b386
