@@ -23,10 +23,15 @@ public class CalculatorFrame extends JFrame {
         initComponents();
     }
 
-    void initComponents() {
+    void initComponents() throws NullPointerException{
 
-        imageIcon = new ImageIcon(getClass().getResource("icons\\calculator.png"));
-        this.setIconImage(imageIcon.getImage());
+        try{
+            imageIcon = new ImageIcon(getClass().getResource("icons/calculator.png"));
+            this.setIconImage(imageIcon.getImage());
+        }
+        catch(NullPointerException e){
+            System.out.println("Icon Not Found\n");
+        }
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setBounds(400, 50, 400, 400);
@@ -73,7 +78,7 @@ public class CalculatorFrame extends JFrame {
         b1 = new JButton("1");
         b1.setBounds(0, 240, 100, 70);
 
-        b2 = new JButton("3");
+        b2 = new JButton("2");
         b2.setBounds(100, 240, 100, 70);
 
         b3 = new JButton("3");
