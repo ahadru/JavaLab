@@ -1,17 +1,12 @@
 package view;
-
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
-import java.awt.Container;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Panel;
 import java.awt.Button;
-import java.awt.Color;
 import javax.swing.JLabel;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
 import javax.swing.JPanel;
 
 public class MFrame extends JFrame{
@@ -20,7 +15,7 @@ public class MFrame extends JFrame{
     //private Font font;
     private JButton b1, b2, b3, b4, b5, b6, b7, b8, b9, b0, bMul, bAdd, bDiv, bSub, bMod, bEqual,bDot,bX;
     private JLabel display;
-    private JTextField input;
+    //private JTextField input;
     GridBagLayout layout;
     GridBagConstraints buttonLayout;
     MFrame(){
