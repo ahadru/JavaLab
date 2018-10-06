@@ -9,7 +9,7 @@ public class Main {
 			rand[i] = random;
 		}
 		
-		Run number = new Run(rand);
+		Runs number = new Runs(rand);
 		
 		//Displaying run
 		StringBuffer run = new StringBuffer(number.displayRun());
