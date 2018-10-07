@@ -14,6 +14,10 @@ public class E19_3{
         List<String> lineContainThe = stream
             .filter(w -> w.contains("the"))
             .collect(Collectors.toList());
-        System.out.println(lineContainThe);
+        
+        for(String w: lineContainThe){
+            System.out.println(w);
+        }
+        //System.out.println(lineContainThe);
     }
 }
