@@ -20,7 +20,7 @@ public class E19_4{
             .filter(w -> w.length() < 5)
             .collect(Collectors.toList());
 
-        for (String w : streamWords) {
+        for (String w : streamWords){
             System.out.println(w);
         }
         //System.out.println(streamWords);
