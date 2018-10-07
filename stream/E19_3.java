@@ -8,7 +8,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.io.File;
 
-public class E19_1{
+public class E19_3{
     public static void main(String[] args) throws IOException{
         Stream<String> stream = Files.lines(Paths.get("data.txt"));
         List<String> lineContainThe = stream
