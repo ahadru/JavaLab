@@ -3457,3 +3457,12 @@ Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/ahadru
 
 !ENTRY org.eclipse.egit.ui 4 0 2018-11-11 16:30:42.885
 !MESSAGE Can't connect to any repository: https://github.com/ahadru/JavaLab.git (https://github.com/ahadru/JavaLab.git: not authorized)
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-11-11 16:31:20.678
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.eclemma.internal.core.launching.AgentServer
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-11-11 16:31:20.678
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.eclemma.internal.core.launching.AgentServer
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-11-11 16:31:20.678
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.eclemma.internal.core.launching.AgentServer
