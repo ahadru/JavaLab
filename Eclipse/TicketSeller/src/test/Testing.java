@@ -14,11 +14,6 @@ class Testing {
 	}
 
 	@Test
-	void testReset() {
-		fail("Not yet implemented");
-	}
-
-	@Test
 	void testGetSoldTickets() {
 		assertEquals(10, ob.getSoldTickets(), "buyed ticket");
 	}
