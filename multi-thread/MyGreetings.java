@@ -2,7 +2,7 @@ import java.util.*;
 import java.lang.*;
 public class MyGreetings extends Thread{
     private String greetings;
-    private final int DELAY = 1000;
+    private final int DELAY = 300;
 
     public MyGreetings(String pGreeting) {
         greetings = pGreeting;

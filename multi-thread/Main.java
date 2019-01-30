@@ -1,11 +1,17 @@
 public class Main {
-    public static void main(String[] args) {
-        Runnable r1 = new MyGreetings(", Hello");
-        Runnable r2 = new MyGreetings(", Good Morning");
-        Thread t1 = new Thread(r1);
-        Thread t2 = new Thread(r2);
-        t1.interrupt();
+    public static void main(String[] args) throws InterruptedException{
+        Thread t1 = new Thread(new MyGreetings("Hello Ahad"));
+        // t1.interrupt();
+        //t1.start();
         t1.start();
-        t2.start();
+        for(int i=0;i<10;i++){
+        	System.out.println("I am Main");
+        	try{
+        		Thread.sleep(300);
+        	}
+        	catch(InterruptedException e){
+        		e.printStackTrace();
+        	}
+        }
     }
 }
